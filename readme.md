@@ -29,3 +29,4 @@ Inputshare server can be run standalone, but the client will require an install 
 - add more functionality to client (cancel connect, disable auto retry, connect at boot etc...)
 - Create a trayicon that isn't a red square...
 - Reading clipboard text sometimes does not work in some cases
+- Add hotkey to enable/disable mouse cursor switching
