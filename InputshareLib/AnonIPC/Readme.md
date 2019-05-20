@@ -1,0 +1,1 @@
+Inputshare uses anonymous pipes to communicate between the service and SP. There is no duplex support in anonymous pipes so client/server read/write need to all be seperate pipes.
