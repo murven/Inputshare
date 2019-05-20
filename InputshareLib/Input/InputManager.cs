@@ -1,9 +1,6 @@
-﻿using InputshareLib;
-using InputshareLib.Input;
-using InputshareLib.Input.Hotkeys;
+﻿using InputshareLib.Input.Hotkeys;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace InputshareLib.Input
 {

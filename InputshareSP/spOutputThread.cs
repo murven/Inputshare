@@ -1,11 +1,7 @@
 ﻿using InputshareLib;
 using InputshareLib.Input;
 using InputshareLib.Ouput;
-using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using System.Text;
 using System.Threading;
 
 namespace InputshareSP

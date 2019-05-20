@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace InputshareLib.Input
+﻿namespace InputshareLib.Input
 {
     public enum ISInputCode : byte
     {

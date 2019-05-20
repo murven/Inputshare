@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace InputshareLib.Net.Messages
+﻿namespace InputshareLib.Net.Messages
 {
     public interface INetworkMessage
     {

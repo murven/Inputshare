@@ -1,5 +1,4 @@
-﻿using InputshareLib;
-using InputshareLib.Net.Messages;
+﻿using InputshareLib.Net.Messages;
 using System;
 using System.Collections.Generic;
 using System.Net;

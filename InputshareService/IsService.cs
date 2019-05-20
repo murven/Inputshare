@@ -1,5 +1,4 @@
 ﻿using System.ServiceProcess;
-using System.IO.Pipes;
 using System.Threading;
 using InputshareLib;
 using System.IO;
@@ -8,12 +7,10 @@ using System.Runtime.InteropServices;
 using System.Net;
 using InputshareLib.Input;
 using System.ComponentModel;
-using System.Text;
 using InputshareLib.Net.Messages;
 using Microsoft.Win32;
 using InputshareLib.AnonIPC;
 using InputshareLib.NamedIPC;
-using static InputshareLib.ServerSocket;
 using System.Threading.Tasks;
 
 namespace InputshareService

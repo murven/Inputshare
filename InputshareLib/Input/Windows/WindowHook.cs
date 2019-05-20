@@ -1,5 +1,4 @@
 ﻿using InputshareLib;
-using Inputshare;
 using System;
 using System.ComponentModel;
 using System.Diagnostics;

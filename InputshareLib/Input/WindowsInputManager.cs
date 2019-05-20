@@ -2,15 +2,10 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Threading;
-using InputshareLib.Input;
 using InputshareLib.Input.Hotkeys;
-using Inputshare.Input.Windows;
-using System.Diagnostics;
 using static Inputshare.Input.Windows.WindowHookWin32;
 using static InputshareLib.Settings;
 using System.Collections.Concurrent;
-using System.Drawing;
-using InputshareLib;
 
 namespace InputshareLib.Input
 {

@@ -2,16 +2,8 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Threading;
-using System.Net;
-using InputshareLib.Net.Messages;
-using InputshareLib.CursorMonitor;
-using static InputshareLib.WinWindow;
-using System.Diagnostics;
 using InputshareLib.AnonIPC;
-using System.IO;
 using System.Security.Principal;
-using InputshareLib.NamedIPC;
-using System.Text;
 
 namespace InputshareSP
 {

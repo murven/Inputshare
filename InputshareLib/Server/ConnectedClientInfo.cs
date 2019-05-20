@@ -1,8 +1,6 @@
 ﻿using InputshareLib.Input.Hotkeys;
 using System;
-using System.Collections.Generic;
 using System.Net;
-using System.Text;
 
 namespace InputshareLib.Server
 {

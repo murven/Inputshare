@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace InputshareLib.AnonIPC
+﻿namespace InputshareLib.AnonIPC
 {
     enum IPCMessageType
     {

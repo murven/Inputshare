@@ -1,12 +1,10 @@
-﻿using InputshareLib;
-using InputshareLib.Input;
+﻿using InputshareLib.Input;
 using InputshareLib.Net.Messages;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using System.Text;
 using System.Threading;
 using static InputshareLib.Settings;
 
