@@ -5,6 +5,11 @@ Currently windows only, but will be ported to mac/linux soon.
 
 Inputshare server can be run standalone, but the client will require an install as it requires a windows service. (TODO - create a standalone client)
 
+## Features ##
+- Switch clients by either a hotkey or moving mouse to client
+- Detect fullscreen games and automatically disable mouse client switching
+- Share clipboard between server & clients
+
 ### Server ###
 ![](https://github.com/sbarrac1/Inputshare/blob/master/_img/basicserverimg.PNG)
 ### Client ###
