@@ -9,6 +9,7 @@ Inputshare server can be run standalone, but the client will require an install 
 - Switch clients by either a hotkey or moving mouse to client
 - Detect fullscreen games and automatically disable mouse client switching
 - Share clipboard between server & clients
+- Client will automatically attempt to reconnect to last server at boot, and can be used to login to windows
 
 ### Server ###
 ![](https://github.com/sbarrac1/Inputshare/blob/master/_img/basicserverimg.PNG)
