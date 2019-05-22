@@ -12,6 +12,7 @@ using Microsoft.Win32;
 using InputshareLib.AnonIPC;
 using InputshareLib.NamedIPC;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace InputshareService
 {
@@ -53,7 +54,7 @@ namespace InputshareService
             {
                 try
                 {
-                    Directory.CreateDirectory("logs");
+                    Directory.CreateDirectory(path + "\\logs");
                 }catch(Exception ex)
                 {
                     ISLogger.Write($"Failed to create log file folder: {ex.Message}");
@@ -64,6 +65,16 @@ namespace InputshareService
             ISLogger.EnableConsole = false;
             ISLogger.EnableLogFile = true;
             ISLogger.Write("Service->Service started");
+
+            try
+            {
+                Process.GetCurrentProcess().PriorityClass = ProcessPriorityClass.RealTime;
+            }
+            catch(Exception ex)
+            {
+                ISLogger.Write($"Error setting realtime priority: {ex.Message}");
+            }
+            
 
             try
             {

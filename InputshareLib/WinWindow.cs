@@ -380,7 +380,7 @@ namespace InputshareLib
 
         private IntPtr SetKeyboardHook(LLHookCallback callback)
         {
-            keyboardCallback = callback;
+            keyboardCallback = callback;    //Use a private variable so the return delegate does not get garbage collected
             using (Process curProcess = Process.GetCurrentProcess())
             {
                 using (ProcessModule curModule = curProcess.MainModule)

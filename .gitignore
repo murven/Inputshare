@@ -40,6 +40,11 @@ Debug32/
 Debug64/
 Release32/
 Release64/
+Publish32/
+publish32fd/
+
+#installer files
+installer/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/

@@ -57,9 +57,10 @@ namespace InputshareSP
 
             //We don't want to create a window on a thread that belongs to the default desktop to
             //prevent shatter attacks. SP will exit if the current thread is not winlogon
-            if(desk.Name != "Winlogon")
+            //TODO - fix spaces in name returned from windesktop.GetThreadDesktop()
+            if(desk.Name.Contains("WinLogon"))
             {
-                ISLogger.Write($"Failed to start: Current desktop is not 'Winlogon'");
+                ISLogger.Write($"Failed to start: Current desktop is not 'Winlogon' ({desk.Name})");
                 return;
             }
 

@@ -17,7 +17,7 @@ namespace InputshareLib.Server
         public event EventHandler<string> ClipboardTextCopied;
 
         private Socket clientSocket;
-        private Thread socketSendThread;
+        private Thread socketSendThread;    //Each socket has a dedicated thread for sending data
         private byte[] clientBuffer = new byte[ServerClientBufferSize];
         private Timer heartbeatTimer;
         public string ClientName { get; private set; }
