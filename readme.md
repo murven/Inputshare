@@ -5,6 +5,8 @@ Currently windows only, but will be ported to mac/linux soon.
 
 Inputshare server can be run standalone, but the client will require an install as it requires a windows service. (TODO - create a standalone client)
 
+https://github.com/sbarrac1/Inputshare/releases
+
 ## Features ##
 - Switch clients by either a hotkey or moving mouse to client
 - Detect fullscreen games and automatically disable mouse client switching
@@ -19,7 +21,7 @@ Inputshare server can be run standalone, but the client will require an install 
 
 ## Default hotkeys ##
 - Local input - Alt+Z
-- Stop server - Ctrl+Alt+Q
+- Stop server - Ctrl+Shift+Q
 - Send SAS (Alt+ctrl+del) - Alt+Ctrl+P
 
 ## TODO ##
